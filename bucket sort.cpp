@@ -1,5 +1,5 @@
-// tripatjot singh
-// 24070123044
+// Divneev singh
+// 24070123043
 
 #include <iostream>
 #include <vector>
