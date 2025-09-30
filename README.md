@@ -196,7 +196,7 @@ Sure! Here’s a **step-by-step algorithm in code-like format** for the **four r
 
 ---
 
-## 🧾 **Merge Sort Algorithm**
+## Program 4 – **Merge Sort Algorithm**
 
 1. **Start**
 2. Input array of size `n`.
@@ -220,7 +220,7 @@ Sure! Here’s a **step-by-step algorithm in code-like format** for the **four r
 
 ---
 
-## 🧾 **Quick Sort Algorithm**
+## Program 5 – **Quick Sort Algorithm**
 
 1. **Start**
 2. Input array of size `n`.
@@ -246,7 +246,7 @@ Sure! Here’s a **step-by-step algorithm in code-like format** for the **four r
 
 ---
 
-## 🧾 **Heap Sort Algorithm**
+## Program 6 – **Heap Sort Algorithm**
 
 1. **Start**
 2. Input array of size `n`.
@@ -270,7 +270,7 @@ Sure! Here’s a **step-by-step algorithm in code-like format** for the **four r
 
 ---
 
-## 🧾 **Bucket Sort Algorithm**
+## Program 7 – **Bucket Sort Algorithm**
 
 1. **Start**
 2. Input array of size `n` and determine number of buckets `k`
@@ -284,8 +284,17 @@ Sure! Here’s a **step-by-step algorithm in code-like format** for the **four r
 7. **End**
 
 ---
+## Time Complexity Comparison  
 
-## 🧩 Time Complexity Comparison | Algorithm | Best Case | Worst Case | Average Case | Space Complexity | Stable | |-----------------|-----------|------------|--------------|------------------|--------| | Bubble Sort | O(n) | O(n²) | O(n²) | O(1) | Yes | | Selection Sort | O(n²) | O(n²) | O(n²) | O(1) | No | | Insertion Sort | O(n) | O(n²) | O(n²) | O(1) | Yes | | Merge Sort | O(n log n)| O(n log n) | O(n log n) | O(n) | Yes | | Quick Sort | O(n log n)| O(n²) | O(n log n) | O(log n) | No | | Heap Sort | O(n log n)| O(n log n) | O(n log n) | O(1) | No | | Bucket Sort | O(n+k) | O(n²) | O(n+k) | O(n+k) | Yes |
+| Algorithm       | Best Case | Worst Case | Average Case | Space Complexity | Stable |
+|-----------------|-----------|------------|--------------|------------------|--------|
+| Bubble Sort     | O(n)      | O(n²)      | O(n²)        | O(1)             | Yes    |
+| Selection Sort  | O(n²)     | O(n²)      | O(n²)        | O(1)             | No     |
+| Insertion Sort  | O(n)      | O(n²)      | O(n²)        | O(1)             | Yes    |
+| Merge Sort      | O(n log n)| O(n log n) | O(n log n)   | O(n)             | Yes    |
+| Quick Sort      | O(n log n)| O(n²)      | O(n log n)   | O(log n)         | No     |
+| Heap Sort       | O(n log n)| O(n log n) | O(n log n)   | O(1)             | No     |
+| Bucket Sort     | O(n+k)    | O(n²)      | O(n+k)       | O(n+k)           | Yes    |
 
 --- 
 
@@ -300,7 +309,7 @@ Sure! Here’s a **step-by-step algorithm in code-like format** for the **four r
 
 ## Applications
 
-* **Databases:** Sorting records for quick access.
+* **Databases:** Sorting for quick access.
 * **E-commerce:** Sorting products by price, popularity, or rating.
 * **Operating Systems:** Sorting tasks for scheduling.
 * **Gaming:** Sorting scores, leaderboards, or inventories.
