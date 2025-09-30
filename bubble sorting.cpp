@@ -1,6 +1,6 @@
-// Name: Barkha Kumari
-// PRN: 24070123029
-// Branch: EnTC A1
+// Name: Divneev Singh
+// PRN: 24070123043
+// Branch: EnTC A2
 // Experiment: Bubble Sort
 
 #include <iostream>
